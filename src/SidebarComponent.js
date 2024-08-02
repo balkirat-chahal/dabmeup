@@ -13,9 +13,10 @@ function SidebarComponent({Icon, title}) {
     dark:bg-gray-800
     hover:bg-gray-50
     dark:hover:bg-gray-700
+    overflow-hidden
     '>
       <Icon className='sidebarIcon text-gray dark:text-gray-100 ml-1 mr-1' />
-      <p className='text-gray dark:text-gray-100 text-2xl hidden sm:block'>{title}</p>
+      <p className='text-gray dark:text-gray-100 text-2xl hidden md:block'>{title}</p>
     </button>
   )
 }

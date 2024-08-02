@@ -12,9 +12,10 @@ function App() {
       <div className='
       body
       w-full
-      sm:flex-row
+      md:flex-row
       flex
       flex-col
+      md:justify-end
       '>
         {/* Sidebar */}
         <Sidebar/>

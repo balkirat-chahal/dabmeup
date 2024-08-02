@@ -4,8 +4,8 @@ function RightSection() {
   return (
     <div className='
     hidden
-    sm:block
-    sm:basis-2/12
+    md:block
+    md:basis-2/12
     bg-blue-400
     '>
         <p>Right Section</p>
