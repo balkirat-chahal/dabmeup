@@ -7,6 +7,7 @@ function RightSection() {
     md:block
     md:basis-2/12
     bg-blue-400
+    mt-20
     '>
         <p>Right Section</p>
     </div>
