@@ -9,7 +9,7 @@ function App() {
     <div className="App  bg-gray-50 min-h-screen dark:bg-gray-700">
       {/* Header */}
      <div className='fixed top-0 left-0 right-0 bottom-0'>
-      <Header username="Balkirat" avatar=""/>
+      <Header username="User" avatar=""/>
       </div>
       
       <div className='
@@ -26,7 +26,7 @@ function App() {
         {/* Feed */}
         <Feed/>
         {/* Active Users */}
-        <RightSection/>
+        <RightSection username="User" avatar="" />
       </div>
     </div>
   );
