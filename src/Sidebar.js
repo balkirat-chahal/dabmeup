@@ -32,11 +32,11 @@ function Sidebar() {
     md:top-20
     z-8
     '>
-      <SidebarComponent Icon={HomeIcon} title='Home'/>
-      <SidebarComponent Icon={ChatIcon} title='Messages'/>
-      <SidebarComponent Icon={MapIcon} title='Map'/>
-      <SidebarComponent Icon={GroupIcon} title='Friends'/>
-      <SidebarComponent Icon={AddIcon} title='Post'/>
+      <SidebarComponent Icon={HomeIcon} title='Home' page='/'/>
+      <SidebarComponent Icon={ChatIcon} title='Messages' page='/messages'/>
+      <SidebarComponent Icon={MapIcon} title='Map' page='/map'/>
+      <SidebarComponent Icon={GroupIcon} title='Friends' page='/friends'/>
+      <SidebarComponent Icon={AddIcon} title='Post' page='/post'/>
       {/**
        * md:fixed
     md:left-0

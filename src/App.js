@@ -2,7 +2,12 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
+import Messages from './Messages';
+import Map from './Map';
+import Friends from './Friends';
+import Post from './Post';
 import RightSection from './RightSection';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,7 +28,14 @@ function App() {
         {/* Sidebar */}
         <Sidebar/>
         {/* Feed */}
-        <Feed/>
+        <Routes>
+          <Route path='/' element={<Feed/>}/>
+          <Route path='/messages' element={<Messages/>}/>
+          <Route path='/map' element={<Map/>}/>
+          <Route path='/friends' element={<Friends/>}/>
+          <Route path='/post' element={<Post/>}/>
+        </Routes>
+        {/*<Feed/>*/}
         {/* Active Users */}
         <RightSection username="User" avatar="" />
       </div>
