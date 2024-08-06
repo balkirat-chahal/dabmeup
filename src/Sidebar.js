@@ -22,7 +22,7 @@ function Sidebar() {
     justify-center
     md:rounded-r-lg
     md:mr-2
-    md:mt-2
+    md:mt-4
     md:justify-start
     fixed
     bottom-0
@@ -30,7 +30,7 @@ function Sidebar() {
     md:left-0
     md:w-2/12
     md:top-20
-    z-9
+    z-8
     '>
       <SidebarComponent Icon={HomeIcon} title='Home'/>
       <SidebarComponent Icon={ChatIcon} title='Messages'/>
