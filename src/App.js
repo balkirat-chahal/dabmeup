@@ -6,7 +6,7 @@ import Messages from './Messages';
 import Map from './Map';
 import Friends from './Friends';
 import Post from './Post';
-import RightSection from './RightSection';
+/**import RightSection from './RightSection';*/
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       md:flex-row
       flex
       flex-col
-      md:justify-center
+      md:justify-end
       min-h-screen
       '>
         {/* Sidebar */}
@@ -37,7 +37,7 @@ function App() {
         </Routes>
         {/*<Feed/>*/}
         {/* Active Users */}
-        <RightSection username="User" avatar="" />
+        {/*<RightSection username="User" avatar="" />*/}
       </div>
     </div>
   );

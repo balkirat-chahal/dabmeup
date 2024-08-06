@@ -16,6 +16,7 @@ function RightSection(props) {
     md:w-2/12
     md:right-0
     rounded-lg
+    p-1
     z-8
     '>
       <div className=''>

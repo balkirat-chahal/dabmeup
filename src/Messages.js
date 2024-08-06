@@ -7,7 +7,7 @@ function Messages() {
     bg-red-500
     min-h-0.5
     w-full
-    md:w-8/12
+    md:w-10/12
     min-h-200
     z-9
     mt-24
