@@ -1,6 +1,6 @@
 import React from 'react';
 import logoTextImg from './assets/text_bg_transparent.png';
-import Avatar from '@mui/material/Avatar';
+import HeaderProfile from './HeaderProfile';
 
 function Header(props) {
   return (
@@ -10,10 +10,7 @@ function Header(props) {
         <img src={logoTextImg} alt='Logo' className='min-h5 max-h-10'/>
       </div>
 
-      <button className='flex items-center justify-center mr-10'>
-        <h2 className='text-gray dark:text-white'>{props.username}</h2>
-        <Avatar src={props.avatar} className='ml-5'/>
-      </button>
+      <HeaderProfile username='User' avatar=''/>
 
     </div>
   )

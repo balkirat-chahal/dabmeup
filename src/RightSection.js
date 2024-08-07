@@ -19,6 +19,7 @@ function RightSection(props) {
     p-1
     z-8
     '>
+
       <div className=''>
         <div className='mb-5 text-center'>
         <h1 className='text-gray-300'>Nearby Users</h1>
