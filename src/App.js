@@ -11,7 +11,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App  bg-gray-50 min-h-screen dark:bg-gray-700">
+    <div className="App  bg-gray-50 min-h-screen dark:bg-gray-700 w-full">
       {/* Header */}
      <div className='fixed md:top-0 left-0 right-0 z-10'>
       <Header username="User" avatar=""/>
